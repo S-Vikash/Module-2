@@ -9,8 +9,18 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
-Add code here
+```
+a = int(input())           # to get input-1 from the user
+
+b = int(input())           # to get input-1 from the user
+
+sum = lambda a,b: a+b      # defining a lambda function to add two numbers to the variable sum 
+
+print(sum(a,b))            # to print the output of the lambda sum
+```
 
 ## Output
+<img width="670" height="144" alt="image" src="https://github.com/user-attachments/assets/74dd4f97-cda1-483f-8b3f-b74e8c91b51b" />
 
 ## Result
+Thus, The Python program that defines a lambda function which takes two arguments a and b, and returns their sum was executed successfully.
